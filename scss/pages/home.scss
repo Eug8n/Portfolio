@@ -1,0 +1,94 @@
+// global styles
+@import "../global";
+// home page style
+.hero {
+    border-bottom: 10px solid $prime;
+    background: url("../../img/bg/Lhome.jpg") no-repeat fixed;
+    background-size: cover;
+    @media (max-width: $screen-sm) {
+        background: url("../../img/bg/Shome.jpg") no-repeat fixed;
+        background-size: cover;
+    }
+}
+
+.hero-subtitle {
+    margin-bottom: 10rem;
+    @media (max-width: $screen-md) {
+        margin-bottom: 6rem;
+    }
+    @media (max-width: $screen-sm) {
+        margin-bottom: 4rem;
+    }
+}
+
+.hero-title {
+    font-size: 4.8rem;
+    color: #fff;
+    margin-bottom: 8rem;
+    line-height: 1.4;
+    @media (max-width: $screen-md) {
+        font-size: 3.4rem;
+        margin-bottom: 5rem;
+    }
+    @media (max-width: $screen-sm) {
+        font-size: 2.4rem;
+        margin-bottom: 3rem;
+        margin-left: 2rem;
+    }
+}
+
+.fullstack {
+    font-family: "Open Sans";
+    font-size: 1.8rem;
+    color: $green;
+    text-transform: uppercase;
+}
+
+.my-services {
+    background-color: $white;
+}
+
+.about {
+    background-color: $grayPastel;
+}
+
+.about-me {
+    @media (max-width: $screen-md) {
+        margin-top: 5rem;
+    }
+    @media (max-width: $screen-sm) {
+        margin-top: 5rem;
+    }
+}
+
+.me {
+    width: 25rem;
+    height: 25rem;
+    margin: 0 auto;
+    background: url("../../img/me.jpg") no-repeat;
+    background-size: cover;
+}
+
+.my-work-img {
+height:20rem;
+width: 25rem;
+background-color: $darkDarkGray; 
+margin: 1rem ;
+  &:hover {
+        background-color:$second;
+        opacity: 90%;
+    }
+}
+
+.clients {
+background-color: $grayPastel;
+}
+
+.footer{ 
+height: 25rem;
+background-color: $greenDark;
+}
+
+.fa:hover {
+    background-color: $greenDark;
+}

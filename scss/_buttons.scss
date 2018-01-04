@@ -1,0 +1,63 @@
+%btn {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: white;
+    background: transparent;
+    padding: 1.5rem 3rem;
+    border: 2px solid white;
+    width: auto;
+    border-radius: 4rem;
+    margin: 0 25%;
+    margin-bottom: 1rem;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    @media (max-width: $screen-xs) {
+        width: 70%;
+        margin-bottom: 2.5rem;
+        margin-left: 15%;
+    }
+    @media (max-width: $screen-md) {
+        width: 70%;
+        margin-bottom: 2.5rem;
+        margin-left: 15%;
+    }
+}
+
+.btn-prime {
+    @extend %btn;
+    background: $prime;
+    border: 2px solid $prime;
+    &:hover {
+        background: $primeShade;
+    }
+}
+
+.btn-second {
+    @extend %btn;
+    background: $second;
+    border: 2px solid $second;
+    &:hover {
+        background: $secondShade;
+        border: 2px solid $secondShade;
+    }
+}
+
+.btn-outline {
+    @extend %btn;
+    &:hover {
+        background: #fff;
+        color: #000;
+    }
+}
+
+.btn-small {
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+}
+
+.btn-large {
+    padding: 1.9rem 4rem;
+    font-size: 1.3rem;
+}

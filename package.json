@@ -1,0 +1,35 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eug8n/Portfolio.git"
+  },
+  "keywords": [
+    "Eug8n"
+  ],
+  "author": "Eugen Volosyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eug8n/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Eug8n/Portfolio#readme"
+}
